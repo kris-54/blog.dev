@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>@yeild('title)</title>
+    <title>@yeild('title')</title>
 
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <!-- Latest compiled and minified CSS -->
@@ -16,7 +16,6 @@
 
 </head>
 <body>
-    @yield('content')
     @yield('body')
 </body>
 </html>
