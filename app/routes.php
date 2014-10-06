@@ -13,12 +13,14 @@
 
 Route::get('/resume', function()
 {
-	return "This is my resume!!";
+	return View::make('resume');
 });
 
-Route::get('/porfolio', function()
+
+
+Route::get('/portfolio', function()
 {
-	return "This is my porfolio!!!";
+	return View::make('portfolio');
 });
 
 // Route::get('/sayhello/{name}', function($name)
