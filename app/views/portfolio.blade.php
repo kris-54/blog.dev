@@ -29,7 +29,8 @@
     </div>
     	
     <div class="col-lg-4">
-        <a href="/resume">RESUM&#201</a>
+        <!-- <a href="/resume">RESUM&#201</a> -->
+        <a href="{{{ action('HomeController@resume') }}}">RESUM&#201;</a>
     </div>
 
     <div class="col-lg-4">
