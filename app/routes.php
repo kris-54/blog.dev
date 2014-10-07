@@ -21,16 +21,10 @@ Route::get('/sayhello/{name}', 'HomeController@sayHello');
 
 Route::get('/roll-dice/{guess}', 'HomeController@rolldice');
 
-// Route::get('/', 'HomeController@showWelcome');
-
-
-// Route::get('/roll-dice/{guess}', function($guess)
-// {
-// 	$random = mt_rand(1,6);
-//     $data = array ('random' => $random, 'guess' => $guess);
-    
-//     return View::make('roll-dice')->with($data);
-    
-// });
+Route::get('orm-test', function ()
+{
+    $post = Post::find(4);
+	return $post;
+});
 
 
