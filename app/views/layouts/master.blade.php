@@ -16,15 +16,19 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-
+    @yield('top-script')
 </head>
 <body>
     @yield('body')
-</body>
+
 
 <div id="footer">
     <div class="container">
         <p class="text-muted">&copy; KCampos 2014</p>
     </div>
 </div>
+
+
+    @yield('bottom-script')
+</body>
 </html>
