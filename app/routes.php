@@ -24,7 +24,7 @@ Route::get('/roll-dice/{guess}', 'HomeController@rolldice');
 Route::get('orm-test', function ()
 {
     $post = Post::find(4);
-	return $post;
+    return $post;
 });
 
 
